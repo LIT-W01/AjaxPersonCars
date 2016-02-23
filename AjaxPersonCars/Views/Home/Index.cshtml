@@ -1,0 +1,92 @@
+﻿<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <button id="addPerson" class="btn btn-primary btn-block">
+            Add Person
+        </button>
+    </div>
+</div>
+
+<div class="row">
+    <table class="table table-hover table-striped table-bordered" id="peopleTable">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+</div>
+
+<div class="modal fade" id="addPersonModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Add Person</h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" id="first" placeholder="First Name" class="form-control" />
+                <br />
+                <br />
+                <input type="text" id="last" placeholder="Last Name" class="form-control" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary submitPerson" data-dismiss="modal">Submit</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="viewCarsModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">View Cars</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table table-hover table-striped table-bordered" id="carsTable">
+                    <tr>
+                        <td>Make</td>
+                        <td>Model</td>
+                        <td>Year</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal fade" id="addCarModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Add Car</h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" id="make" placeholder="Make" class="form-control" />
+                <br />
+                <br />
+                <input type="text" id="model" placeholder="Model" class="form-control"/>
+                <br/>
+                <br/>
+                <input type="text" id="year" placeholder="Year" class="form-control" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary submitCar" data-dismiss="modal">Submit</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+@section scripts
+{
+    <script src="http://embeddedjavascript.googlecode.com/files/ejs_0.9_alpha_1_production.js"></script>
+    <script src="/Scripts/index.js"></script>
+}

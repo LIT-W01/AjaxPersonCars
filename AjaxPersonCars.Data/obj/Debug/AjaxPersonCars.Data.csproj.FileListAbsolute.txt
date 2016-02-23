@@ -1,0 +1,4 @@
+c:\users\alexfriedman\documents\visual studio 2013\Projects\AjaxPersonCars\AjaxPersonCars.Data\bin\Debug\AjaxPersonCars.Data.dll
+c:\users\alexfriedman\documents\visual studio 2013\Projects\AjaxPersonCars\AjaxPersonCars.Data\bin\Debug\AjaxPersonCars.Data.pdb
+c:\users\alexfriedman\documents\visual studio 2013\Projects\AjaxPersonCars\AjaxPersonCars.Data\obj\Debug\AjaxPersonCars.Data.dll
+c:\users\alexfriedman\documents\visual studio 2013\Projects\AjaxPersonCars\AjaxPersonCars.Data\obj\Debug\AjaxPersonCars.Data.pdb
